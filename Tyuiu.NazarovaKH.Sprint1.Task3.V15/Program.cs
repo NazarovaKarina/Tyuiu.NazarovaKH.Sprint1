@@ -12,10 +12,10 @@ namespace Tyuiu.NazarovaKH.Sprint1.Task3.V15
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            double v1 = 1;
-            double v2 = 5;
-            double T = 3;
-            double S = 2;
+            double v1 = 2;
+            double v2 = 3;
+            double T = 2;
+            double S = 5;
             Console.WriteLine("Скорость 1 автомобиля = " + v1);
             Console.WriteLine("Скорость 2 автомобиля = " + v2);
             Console.WriteLine("Время = " + T);
@@ -25,7 +25,7 @@ namespace Tyuiu.NazarovaKH.Sprint1.Task3.V15
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Расстояние между ними через час = " + ds.DistanceOverTime(v1, v2, T, S));
+            Console.WriteLine("Расстояние между ними через 2 часа = " + ds.DistanceOverTime(v1, v2, T, S));
 
             Console.ReadKey();
         }
