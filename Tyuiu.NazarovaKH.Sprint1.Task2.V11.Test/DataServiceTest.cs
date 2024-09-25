@@ -9,10 +9,10 @@ namespace Tyuiu.NazarovaKH.Sprint1.Task2.V11.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            int hours = 1;
+            int hours = 6;
             int minutes = 60;
             var res = ds.ConvertHoursMinutesToSeconds(hours, minutes);
-            Assert.AreEqual(3600, res);
+            Assert.AreEqual(21600, res);
         }
     }
 }
