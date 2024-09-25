@@ -12,8 +12,8 @@ namespace Tyuiu.NazarovaKH.Sprint1.Task3.V15
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            double v1 = 2;
-            double v2 = 3;
+            double v1 = 1;
+            double v2 = 4;
             double T = 2;
             double S = 5;
             Console.WriteLine("Скорость 1 автомобиля = " + v1);
