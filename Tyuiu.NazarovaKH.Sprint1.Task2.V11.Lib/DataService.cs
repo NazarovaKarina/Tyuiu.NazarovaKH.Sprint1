@@ -6,7 +6,7 @@ namespace Tyuiu.NazarovaKH.Sprint1.Task2.V11.Lib
     {
         public int ConvertHoursMinutesToSeconds(int hours, int minutes)
         {
-            return hours * 60 + minutes * 60;
+            return hours * 60 * 60 + minutes * 60;
         }
     }
 }
