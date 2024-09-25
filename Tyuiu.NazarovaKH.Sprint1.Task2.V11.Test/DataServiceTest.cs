@@ -10,7 +10,7 @@ namespace Tyuiu.NazarovaKH.Sprint1.Task2.V11.Test
         {
             DataService ds = new DataService();
             int hours = 6;
-            int minutes = 60;
+            int minutes = 3;
             var res = ds.ConvertHoursMinutesToSeconds(hours, minutes);
             Assert.AreEqual(21600, res);
         }

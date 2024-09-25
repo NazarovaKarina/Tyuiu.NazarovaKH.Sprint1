@@ -27,7 +27,7 @@ namespace Tyuiu.NazarovaKH.Sprint1.Task2.V11
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("В 6 часах = " + ds.ConvertHoursMinutesToSeconds(hours, minutes) + " секунд");
+            Console.WriteLine("В 6 часах и 3 минутах = " + ds.ConvertHoursMinutesToSeconds(hours, minutes) + " секунд");
 
             Console.ReadLine();
         }
