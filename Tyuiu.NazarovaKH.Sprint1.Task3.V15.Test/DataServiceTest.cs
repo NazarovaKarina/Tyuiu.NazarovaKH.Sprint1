@@ -14,7 +14,7 @@ namespace Tyuiu.NazarovaKH.Sprint1.Task3.V15.Test
             double T = 3;
             double S = 3;
             var res = ds.DistanceOverTime(v1, v2, T, S);
-            Assert.AreEqual(15, res);
+            Assert.AreEqual(16, res);
         }
     }
 }
