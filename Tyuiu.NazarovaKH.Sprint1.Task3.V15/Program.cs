@@ -15,7 +15,7 @@ namespace Tyuiu.NazarovaKH.Sprint1.Task3.V15
             double v1 = 1;
             double v2 = 5;
             double T = 3;
-            double S = 2;
+            double S = 3;
             Console.WriteLine("Скорость 1 автомобиля = " + v1);
             Console.WriteLine("Скорость 2 автомобиля = " + v2);
             Console.WriteLine("Время = " + T);
