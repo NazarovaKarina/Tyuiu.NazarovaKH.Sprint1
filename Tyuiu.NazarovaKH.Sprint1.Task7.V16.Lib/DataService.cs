@@ -7,7 +7,7 @@ namespace Tyuiu.NazarovaKH.Sprint1.Task7.V16.Lib
         public double Calculate(double x)
         {
             double res = Math.Sin(Math.Sqrt(Math.Pow(x, 2))) + Math.Cos(Math.Pow(x, 2)) / (3 * Math.Pow(x, 3)) - Math.Sin(Math.Sqrt(Math.Pow(x, 2) - 1));
-            return res;
+            return Math.Round(res, 3);
         }
     }
 }
