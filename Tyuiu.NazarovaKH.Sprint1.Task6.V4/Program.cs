@@ -6,7 +6,23 @@ namespace Tyuiu.NazarovaKH.Sprint1.Task6.V4
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            DataService ds = new DataService();
+
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+            Console.WriteLine("***************************************************************************");
+
+            Console.WriteLine("Введите строку: ");
+            string str = Console.ReadLine();
+
+
+            Console.WriteLine("***************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("***************************************************************************");
+
+            Console.WriteLine(ds.CheckDoubleN(str));
+
+            Console.ReadKey();
         }
     }
 }

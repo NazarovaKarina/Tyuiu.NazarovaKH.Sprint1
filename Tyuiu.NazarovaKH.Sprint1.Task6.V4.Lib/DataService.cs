@@ -6,7 +6,24 @@ namespace Tyuiu.NazarovaKH.Sprint1.Task6.V4.Lib
     {
         public string CheckDoubleN(string value)
         {
-            throw new NotImplementedException();
+            value = value.Replace(",", "");
+            value = value.Replace(".", "");
+            value = value.Replace("?", "");
+            value = value.Replace("!", "");
+            string[] s = value.Split(' ');
+            string a = "";
+
+            foreach (var i in s)
+            {
+                if (i.Contains("нн"))
+                {
+                    a += i + " ";
+                }
+            }
+
+            a = a.Trim();
+
+            return a;
         }
     }
 }
