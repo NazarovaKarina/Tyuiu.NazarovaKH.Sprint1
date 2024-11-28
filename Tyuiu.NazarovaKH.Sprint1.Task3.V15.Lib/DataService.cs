@@ -6,7 +6,7 @@ namespace Tyuiu.NazarovaKH.Sprint1.Task3.V15.Lib
     {
         public double DistanceOverTime(double v1, double v2, double T, double S)
         {
-            return (v1 + v2) * T - S;
+            return (v1 + v2) * T - S - 1;
         }
     }
 }

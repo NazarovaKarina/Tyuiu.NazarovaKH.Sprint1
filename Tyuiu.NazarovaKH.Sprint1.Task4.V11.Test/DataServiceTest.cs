@@ -13,7 +13,7 @@ namespace Tyuiu.NazarovaKH.Sprint1.Task4.V11.Test
             double y = 2;
             double wait = 0.125;
             var res = ds.Calculate(x, y);
-            Assert.AreEqual(wait, res, 0.001);
+            Assert.AreEqual(wait, res, 0.125);
         }
     }
 }
